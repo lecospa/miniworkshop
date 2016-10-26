@@ -14,12 +14,12 @@
 			<p class="form-control-static">{$person.first_name|escape} {$person.last_name|escape}</p>
 		</div>
 	</div>
-	<div class="form-group">
+	<!--<div class="form-group">
 		<label class="col-sm-2 control-label">Email</label>
 		<div class="col-sm-10">
 			<p class="form-control-static">{$person.email|escape}</p>
 		</div>
-	</div>
+	</div> -->
 </form>
 
 {foreach $talks as $talk}

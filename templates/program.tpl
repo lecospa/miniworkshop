@@ -23,7 +23,27 @@
 	<tr>
 		<td colspan="3" style="height: 40px;"><strong>Chair</strong>: Dong-han Yeom (2 hours)</td>
 	</tr>
-	<tr>
+	<tr style="height: 40px;">
+		<th>10:00 - 11:00</th>
+		<td><strong>Antonino Marciano</strong></td>
+		<td>{$talks[12].title|escape}</td>
+	</tr>
+	<tr style="height: 40px;">
+		<th></th>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="height: 40px;">
+		<th></th>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="height: 40px;">
+		<th></th>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="height: 40px;">
 		<th></th>
 		<td></td>
 		<td></td>

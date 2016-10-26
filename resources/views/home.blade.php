@@ -17,12 +17,16 @@ class Program extends \Controllers\Controller {
 		}
 		$this->smarty->assign('people', $p);
 		
-		$sessions = \Models\Sessions::all($conn);
-		$s = array();
-		foreach ($sessions as $session) {
-			$s[$session['id']] = $session;
+
+
+		$stmt = $conn->prepare("SELECT `id`, `title` FROM `talks` ORDER BY `id`");
+		$stmt->execute();
+		$talks = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+		$t = array();
+		foreach ($talks as $talk) {
+			$t[$talk['id']] = $talk;
 		}
-		$this->smarty->assign('session', $s);
+		$this->smarty->assign('talks', $t);
 		$this->smarty->display('program.tpl');
 	}
 }

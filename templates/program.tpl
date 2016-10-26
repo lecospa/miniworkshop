@@ -1,3 +1,4 @@
+{extends file='others.tpl'}
 {block name=head append}
 <link href="{$smarty.const.TOP}/css/program.css" rel="stylesheet">
 {/block}

@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Symposium,LeCosPA,Everything about Gravity" />
-	<meta name="description" content="Celebrating the Centenary of Einstein's General Relativity, Dec, 14-18, 2015, NTU, Taiwan" />
-	<meta property="og:title" content="{block name=title}Second LeCosPA Symposium{/block}" />
-	<meta property="og:url" content="http://lecospa.ntu.edu.tw/symposium/2015/" />
-    <title>{block name=title}Second LeCosPA Symposium{/block}</title>
+	<meta name="keywords" content="Mini-workshop,LeCosPA,NTU,Gravity" />
+	<meta name="description" content="New perspectives of Cosmology and Quantum Gravity" />
+	<meta property="og:title" content="{block name=title}NTU LeCosPA Mini-workshop{/block}" />
+	<meta property="og:url" content="http://lecospa.ntu.edu.tw/miniworkshop/" />
+    <title>{block name=title}NTU LeCosPA Mini-workshop{/block}</title>
 	<link href="{$smarty.const.TOP}/css/{block name=bootstrap_theme}bootstrap-darkly.min.css{/block}" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

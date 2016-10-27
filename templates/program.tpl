@@ -27,17 +27,17 @@
 	<tr style="height: 40px;">
 		<th>10:00 - 11:00</th>
 		<td><strong>Antonino Marciano</strong></td>
-		<td>{$talks[1].title|escape}</td>
+		<td>{$talks[1].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs1')" style="float: right;">Show/Hide Abstract</button><div id="abs1" style="display:none"><br>{$talks[1].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>11:00 - 11:30</th>
 		<td><strong>Suddho Brahma</strong></td>
-		<td>{$talks[2].title|escape}</td>
+		<td>{$talks[2].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs2')" style="float: right;">Show/Hide Abstract</button><div id="abs2" style="display:none"><br>{$talks[2].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>11:30 - 12:00</th>
 		<td><strong>Jibril Ben Achour</strong></td>
-		<td>{$talks[3].title|escape}</td>
+		<td>{$talks[3].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs3')" style="float: right;">Show/Hide Abstract</button><div id="abs3" style="display:none"><br>{$talks[3].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>12:00 - 13:30</th>
@@ -50,22 +50,22 @@
 	<tr style="height: 40px;">
 		<th>13:30 - 14:00</th>
 		<td><strong>Frederico Arroja</strong></td>
-		<td>{$talks[4].title|escape}</td>
+		<td>{$talks[4].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs4')" style="float: right;">Show/Hide Abstract</button><div id="abs4" style="display:none"><br>{$talks[4].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>14:00 - 14:30</th>
 		<td><strong>Dong-han Yeom</strong></td>
-		<td>{$talks[5].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs')" style="float: right;">Show/Hide Abstract</button><div id="abs" style="display:none"><br>{$talks[5].abstract|escape}</div></td>
+		<td>{$talks[5].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs5')" style="float: right;">Show/Hide Abstract</button><div id="abs5" style="display:none"><br>{$talks[5].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>14:30 - 15:00</th>
 		<td><strong>Fabien Nugier</strong></td>
-		<td>{$talks[6].title|escape}</td>
+		<td>{$talks[6].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs6')" style="float: right;">Show/Hide Abstract</button><div id="abs6" style="display:none"><br>{$talks[6].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>15:00 - 15:30</th>
 		<td><strong>Hsu-Wen Chiang</strong></td>
-		<td>{$talks[7].title|escape}</td>
+		<td>{$talks[7].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs7')" style="float: right;">Show/Hide Abstract</button><div id="abs7" style="display:none"><br>{$talks[7].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>15:30 - 16:00</th>
@@ -78,22 +78,22 @@
 	<tr style="height: 40px;">
 		<th>16:00 - 16:30</th>
 		<td><strong>Yu-Hsiang Lin</strong></td>
-		<td>{$talks[8].title|escape}</td>
+		<td>{$talks[8].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs8')" style="float: right;">Show/Hide Abstract</button><div id="abs8" style="display:none"><br>{$talks[8].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>16:30 - 17:00</th>
 		<td><strong>Chien-Ting Chen</strong></td>
-		<td>{$talks[9].title|escape}</td>
+		<td>{$talks[9].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs9')" style="float: right;">Show/Hide Abstract</button><div id="abs9" style="display:none"><br>{$talks[9].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>17:00 - 17:30</th>
 		<td><strong>Che-Yu Chen</strong></td>
-		<td>{$talks[10].title|escape}</td>
+		<td>{$talks[10].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs10')" style="float: right;">Show/Hide Abstract</button><div id="abs10" style="display:none"><br>{$talks[10].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>17:30 - 18:00</th>
 		<td><strong>Chih-Hung Wu</strong></td>
-		<td>{$talks[11].title|escape}</td>
+		<td>{$talks[11].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs11')" style="float: right;">Show/Hide Abstract</button><div id="abs11" style="display:none"><br>{$talks[11].abstract|escape}</div></td>
 	</tr>
 	</tbody>
 </table>

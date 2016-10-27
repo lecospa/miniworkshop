@@ -13,7 +13,7 @@ class Program extends \Controllers\Controller {
 		}
 		$this->smarty->assign('people', $p);
 		
-		$stmt = $conn->prepare("SELECT `id`, `title` FROM `talks` ORDER BY `id`");
+		$stmt = $conn->prepare("SELECT `id`, `title`, `abstract` FROM `talks` ORDER BY `id`");
 		$stmt->execute();
 		$talks = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 		$t = array();

@@ -55,7 +55,7 @@
 	<tr style="height: 40px;">
 		<th>14:00 - 14:30</th>
 		<td><strong>Dong-han Yeom</strong></td>
-		<td>{$talks[5].title|escape}</td>
+		<td>{$talks[5].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs')" style="float: right;">Show/Hide Abstract</button><div id="abs" style="display:none"><br>{$talks[5].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>14:30 - 15:00</th>
@@ -98,4 +98,18 @@
 	</tbody>
 </table>
 </div>
+
+{* Show/Hide Session Code *}
+{literal}
+<script>
+	function show(item){
+		if(document.getElementById(item).style.display == "none"){
+			document.getElementById(item).style.display = "block";
+		} else {
+			document.getElementById(item).style.display = "none";
+		}
+	}
+</script>
+{/literal}
+
 {/block}

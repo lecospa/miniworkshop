@@ -75,22 +75,22 @@
 	<tr style="height: 40px;">
 		<th>16:00 - 16:30</th>
 		<td><strong>{$people[12].first_name|escape} {$people[12].last_name|escape}</strong></td>
-		<td>{$talks[12].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs8')" style="float: right;">Show/Hide Abstract</button><div id="abs8" style="display:none; text-align: left;"><br>{$talks[12].abstract|escape}</div></td>
+		<td>{$talks[12].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs12')" style="float: right;">Show/Hide Abstract</button><div id="abs12" style="display:none; text-align: left;"><br>{$talks[12].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>16:30 - 17:00</th>
 		<td><strong>{$people[8].first_name|escape} {$people[8].last_name|escape}</strong></td>
-		<td>{$talks[8].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs9')" style="float: right;">Show/Hide Abstract</button><div id="abs9" style="display:none; text-align: left;"><br>{$talks[8].abstract|escape}</div></td>
+		<td>{$talks[8].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs8')" style="float: right;">Show/Hide Abstract</button><div id="abs8" style="display:none; text-align: left;"><br>{$talks[8].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>17:00 - 17:30</th>
 		<td><strong>{$people[9].first_name|escape} {$people[9].last_name|escape}</strong></td>
-		<td>{$talks[9].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs10')" style="float: right;">Show/Hide Abstract</button><div id="abs10" style="display:none; text-align: left;"><br>{$talks[9].abstract|escape}</div></td>
+		<td>{$talks[9].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs9')" style="float: right;">Show/Hide Abstract</button><div id="abs9" style="display:none; text-align: left;"><br>{$talks[9].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>17:30 - 18:00</th>
 		<td><strong>{$people[10].first_name|escape} {$people[10].last_name|escape}</strong></td>
-		<td>{$talks[10].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs11')" style="float: right;">Show/Hide Abstract</button><div id="abs11" style="display:none; text-align: left;"><br>{$talks[10].abstract|escape}</div></td>
+		<td>{$talks[10].title|escape} <button type="button" class="btn btn-primary btn-xs" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="show('abs10')" style="float: right;">Show/Hide Abstract</button><div id="abs10" style="display:none; text-align: left;"><br>{$talks[10].abstract|escape}</div></td>
 	</tr>
 	<tr style="height: 40px;">
 		<th>18:00 - 18:30</th>
